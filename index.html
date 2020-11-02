@@ -19,18 +19,22 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-   <!-- https://github.com/seiyria/bootstrap-slider -->
-    <input id="ex13" type="text" data-slider-ticks="[0, 100, 200, 300, 400]" data-slider-ticks-snap-bounds="30" data-slider-ticks-labels='["$0", "$100", "$200", "$300", "$400"]'/>
+    <div class="container">
+      <h1>Hello, world!</h1>
+      <!-- https://github.com/seiyria/bootstrap-slider -->
+      <input id="ex13" type="text" data-slider-ticks="[0, 100, 200, 300, 400]" data-slider-ticks-snap-bounds="30" data-slider-ticks-labels='["$0", "$100", "$200", "$300", "$400"]'/>
 
-  <script>
-    // With JQuery
-    $("#ex13").slider({
-      ticks: [0, 100, 200, 300, 400],
-      ticks_labels: ['$0', '$100', '$200', '$300', '$400'],
-      ticks_snap_bounds: 30
-    });
-  </script>
+    </div>
+    
+    
+    <script>
+      // With JQuery
+      $("#ex13").slider({
+        ticks: [0, 100, 200, 300, 400],
+        ticks_labels: ['$0', '$100', '$200', '$300', '$400'],
+        ticks_snap_bounds: 30
+      });
+    </script>
     
     
   </body>
